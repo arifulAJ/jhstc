@@ -1,0 +1,131 @@
+.logoBackground{
+   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+   background-size: cover;
+    
+}
+.logoBackground p{
+    font-size: 40px;
+    font-weight: bold;
+}
+ .logoUp{
+    justify-content: center;
+    /* z-index: 1;
+    transform: translate3d(10px, 51px, 10px); */
+}
+
+
+
+
+.naveImage{
+    display: none;
+}
+.naveText{
+    display: none;
+}
+.menuBar{
+justify-content: center;
+text-align: center;
+
+}
+.menuBar ul{
+    display: flex;
+    list-style: none;
+   
+  
+}
+.menuBar li{
+   width: 120px;
+  
+   
+}
+.menuBar li a:hover{
+ color: rgb(227, 137, 20);
+
+  
+   
+}
+.menuBar ul li a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.navbarBg{
+    background-color: rgb(25, 121, 25);
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: end;
+}
+.NavExpand{
+    display: none;
+    
+    
+}
+.menuBar ul li:hover  .NavExpand{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1px;
+    margin-left: -100px;
+  
+   
+}
+.menuBar ul li:hover .NavExpand ul {
+    display: block;
+    margin: 10px;
+    width: 200px;
+}
+.menuBar ul li:hover .NavExpand ul li{
+    background-color: rgb(249, 239, 239);
+    width: 226px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0%;
+   
+    border-bottom: 1px rgb(14, 14, 14) dotted;
+}
+.menuBar ul li:hover .NavExpand ul li a{
+    color: black;
+}
+.menuBar ul li:hover .NavExpand ul li a:hover{
+    color: rgb(168, 69, 69);
+}
+@media only screen and (max-width: 780px) {
+    .naveImage{
+        display: block;
+    }
+    .naveText{
+        display: block;
+    }
+    /* logo and university name  */
+    .logoUp{
+        display: none;
+    }
+    .logoBackground p{
+        font-size: 17px;
+        font-weight: 800;
+        padding: 5px;
+        margin: 5px;
+        align-items: center;
+    }
+    .menuBar ul {
+        
+        display: inline;
+    }
+    .menuBar ul li:hover .NavExpand ul{
+      padding-left: 200px ;
+      padding-top: -1px;
+   
+    }
+    .menuBar ul li:hover .NavExpand ul li{
+        background-color: rgb(249, 239, 239);
+        width: 154px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3%;
+    border-bottom: 1px rgb(14, 14, 14) dotted;
+}
+  }

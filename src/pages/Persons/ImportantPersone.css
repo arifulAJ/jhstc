@@ -1,0 +1,35 @@
+
+.cardStyle{
+    padding-top: 80px;
+    padding-bottom: 5px;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    background-size: cover;
+    grid-row-gap: 80px;
+   
+}
+
+.ImageStyle img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(165, 181, 181);
+    transform: translate(0px, -60px);
+}
+.imageCard{
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+    background-color: rgb(247, 246, 244);
+}
+@media only screen and (max-width: 780px) {
+    .ImageStyle img{
+        width: 100px;
+        height: 100px;
+       
+    }  
+    .imageCard p{
+        font-size: medium;
+        font-weight: 800;
+
+    }
+}

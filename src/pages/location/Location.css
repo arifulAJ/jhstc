@@ -1,0 +1,30 @@
+
+.mapStyle iframe{
+    width:40vw;
+    height: 300px;
+   
+}
+.mapLocation{
+    padding-top: 30px;
+
+background-color: aliceblue;
+
+    justify-content: space-around;
+  
+}
+.messageArea{
+   transform: translateX(140px);
+}
+.messageArea input{
+   width: 250px;
+}
+@media only screen and (max-width: 600px) {
+    .mapStyle iframe{
+        width:90vw;
+        height: 300px;
+       
+    }
+    .messageArea{
+        transform: translateX(10px);
+     }
+  }
