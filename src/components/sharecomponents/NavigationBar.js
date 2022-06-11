@@ -1,5 +1,6 @@
 
 import {   Button, Container, Image, Nav, Navbar} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 import './Navigation.css'
@@ -74,9 +75,10 @@ export default function NavigationBar() {
           <li className='p-2 '> <a href='#home'> Courses</a>
           <div className='NavExpand'>
           <ul  >
-            <li> <a href='#cse'> Department of CSE</a></li>
-            <li> <a href='#bse'> Department of BBA</a></li>
-            <li> <a href='#bse'> Higher Secondary Education  </a></li>
+            <li> <Link to="/cse">Department of CSE</Link> </li>
+            <li> <Link to="/bba">Department of BBA</Link> </li>
+            <li> <Link to="/hsc">Higher Secondary Education</Link> </li>
+     
             
           </ul>
           </div>
